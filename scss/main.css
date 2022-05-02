@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: url(/images/bg-intro-desktop.png), #ff7a7a;
+}
+
+body .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10%;
+}
+
+body .wrapper .description {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: white;
+}
+
+body .wrapper .description h1 {
+  font-size: 3em;
+}
+
+body .wrapper .description p {
+  line-height: 1.7em;
+  margin-top: 2%;
+  padding-right: 10%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.signup {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.signup .tryit {
+  text-align: center;
+  background-color: #6055a5;
+  color: #fff;
+  -webkit-box-shadow: 0px 3px 2px 5px rgba(88, 88, 88, 0.336);
+          box-shadow: 0px 3px 2px 5px rgba(88, 88, 88, 0.336);
+  border-radius: 10px;
+  margin-bottom: 4%;
+  padding: 3%;
+}
+
+.signup .tryit span {
+  font-weight: 700;
+}
+
+.signup .card {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 2px 5px rgba(88, 88, 88, 0.336);
+          box-shadow: 0px 3px 2px 5px rgba(88, 88, 88, 0.336);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5% 6%;
+}
+
+.signup .card .login {
+  position: relative;
+  width: 100%;
+  padding: 3%;
+  margin: 1% 0;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+.signup .card p {
+  width: 100%;
+  color: #ff7a7a;
+  text-align: end;
+}
+
+.signup .card ::-webkit-input-placeholder {
+  font-weight: 600;
+}
+
+.signup .card :-ms-input-placeholder {
+  font-weight: 600;
+}
+
+.signup .card ::-ms-input-placeholder {
+  font-weight: 600;
+}
+
+.signup .card ::placeholder {
+  font-weight: 600;
+}
+
+.signup .card .button {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #38cc8c;
+  -webkit-box-shadow: 0px 3px 2px 1px rgba(172, 172, 172, 0.5);
+          box-shadow: 0px 3px 2px 1px rgba(172, 172, 172, 0.5);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 100%;
+  padding: 3%;
+  margin: 1% 0 2%;
+}
+
+.signup .card .button:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+}
+
+.signup .card .terms {
+  width: 100%;
+  font-size: 0.8em;
+  color: #b9b6d3;
+  text-align: center;
+}
+
+.signup .card .terms span {
+  color: #ff7a7a;
+  font-weight: 600;
+}
+
+.placeholderred::-webkit-input-placeholder {
+  color: #ff7a7a;
+}
+
+.placeholderinvisible::-webkit-input-placeholder {
+  color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  body .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 5%;
+  }
+  body .wrapper .description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .wrapper .description h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  body .wrapper .description p {
+    text-align: center;
+    padding: 0;
+    margin: 4% 0;
+  }
+  body .wrapper .signup .tryit {
+    padding: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  body .wrapper .signup .card {
+    width: 100%;
+  }
+  body .wrapper .signup .card .login {
+    padding: 5%;
+    margin: 2% 0;
+  }
+  body .wrapper .signup .card .button {
+    margin: 2% 0 3%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

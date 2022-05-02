@@ -1,0 +1,44 @@
+@media screen and(max-width:768px) {
+	body {
+		.wrapper {
+			flex-direction: column;
+            padding: 5%;
+            .description{
+                
+                flex-direction: column;
+                h1{
+                    font-size: 2em;
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    // display: flex;
+                    padding: 0;
+                    margin: 4% 0; 
+                }
+            }
+            .signup{
+                .tryit{
+                    padding: 5%;
+                    text-align:center;
+                    margin-bottom: 5%;
+                    
+                    
+                    
+                }
+                .card{
+                    width: 100%;
+                    .login{
+                        padding: 5%;
+                        margin: 2% 0;
+                    }
+                    .button{
+                        margin: 2% 0 3%;
+                    }
+                }
+                
+            }
+		}
+	}
+    
+}
