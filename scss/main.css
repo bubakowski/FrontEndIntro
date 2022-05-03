@@ -21,7 +21,7 @@ body {
           justify-content: center;
   height: 100vh;
   width: 100vw;
-  background: url(/images/bg-intro-desktop.png), #ff7a7a;
+  background: url(../images/bg-intro-desktop.png), #ff7a7a;
 }
 
 body .wrapper {
